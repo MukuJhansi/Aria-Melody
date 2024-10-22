@@ -25,15 +25,15 @@ module.exports = {
          */
     ],
     spotify: {
-        clientId: "PUT_YOUR_SPOTIFY_ID_HERE", // https://developer.spotify.com/
-        ClientSecret: "PUT_YOUR_SPOTIFY_SECRET_HERE" // https://developer.spotify.com/
+        clientId: "e3aa39043d3e412d98f08e0a57de637f", // https://developer.spotify.com/
+        ClientSecret: "a7ff8e0aadf3449594a90618a8266754" // https://developer.spotify.com/
     },
 	presence: {
 		/**
 		 * online, idle, dnd, invisible, ...
 		 */
-		status: "online",
-		activities: [
+		status: "dnd",
+		const activities = [
 			{
 				name: "{Guilds} servers",
 				type: "WATCHING",
@@ -44,8 +44,8 @@ module.exports = {
 				},
 			},
 			{
-				name: "Music",
-				type: "LISTENING",
+				name: "Made By Gunman",
+				type: "PLAYING",
 			},
 		],
 	},

@@ -12,14 +12,50 @@ module.exports = {
     defaultSearchPlatform: process.env.DEFAULT_SEARCH_PLATFORM || "spsearch", // REQUIRED ( this Can Be spsearch, ytsearch, ytmsearc, scsearch )
     nodes: [
         {
-            name: "Lavalink v4",
-            host: "node-us.beban.tech",
-            port: 80,
-            password: "dsc.gg/bebancommunity",
-            secure: false,
-            reconnectTimeout: 5000,
-            reconnectTries: 15
-        },
+        name: "Lavalink v4",
+        host: "node-us.beban.tech",
+        port: 80,
+        password: "dsc.gg/bebancommunity",
+        secure: false,
+        reconnectTimeout: 5000,
+        reconnectTries: 15
+    },
+    {
+        name: "lavalink.jirayu.net 1",
+        host: "lavalink.jirayu.net",
+        password: "youshallnotpass",
+        port: 13592,
+        reconnectTimeout: 5000,
+        reconnectTries: 15,
+        secure: false
+    },
+    {
+        name: "Catfein",
+        host: "lava.catfein.com",
+        password: "catfein",
+        port: 4000,
+        reconnectTimeout: 5000,
+        reconnectTries: 15,
+        secure: false
+    },
+    {
+        name: "Catfein DE",
+        host: "lavalink.alfari.id",
+        password: "catfein",
+        port: 443,
+        reconnectTimeout: 5000,
+        reconnectTries: 15,
+        secure: true
+    },
+    {
+        name: "LewdHuTao - Lavalink",
+        host: "node.lewdhutao.my.eu.org",
+        password: "youshallnotpass",
+        port: 80,
+        reconnectTimeout: 5000,
+        reconnectTries: 15,
+        secure: false
+    }
         /** 
          *  CHECK OUT THE AVAILABLE LAVALINK SERVER ON https://uptime.beban.tech/status/servers
          */

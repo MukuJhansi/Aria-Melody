@@ -69,9 +69,9 @@ module.exports = {
 		 * online, idle, dnd, invisible, ...
 		 */
 		status: "dnd",
-		const activities = [
+		activities: [
 			{
-				name: "{Guilds} servers",
+				name: "{Guilds} Servers",
 				type: "WATCHING",
 				data: (client) => {
 					return {

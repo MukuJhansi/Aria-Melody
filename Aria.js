@@ -20,7 +20,7 @@ const { connect } = require("mongoose")
 const { logger } = require("./utils/logger")
 const { Riffy } = require("riffy");
 const path = require("path");
-const port = 3000;
+const port = 10000;
 // CREATING DISCORD CLIENT
 const client = new Client({
     intents: [
